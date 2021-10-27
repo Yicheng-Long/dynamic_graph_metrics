@@ -1,1 +1,1 @@
-# dynamic_graph_metrics
+# Please read the example.m
