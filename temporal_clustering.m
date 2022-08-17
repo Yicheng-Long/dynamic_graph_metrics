@@ -1,4 +1,4 @@
-function [ C,C_vec ] = temporal_custering( adjArray,directed,nNodes )
+function [ C,C_vec ] = temporal_clustering( adjArray,directed,nNodes )
 % this function calculates the temporal clustering coefficient of a dynamic
 % network as described by Long et al. 2021.
 %
