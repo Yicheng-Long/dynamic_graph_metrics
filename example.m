@@ -47,7 +47,7 @@ a1 = threshold_proportional(M,k);  % Proportional thresholding using the Brain C
 a1(a1~=0)=1; 
 dynamic_network_thresholded(:,:,n) = a1; 
 end; 
-[ C,C_vec ] = temporal_clust(dynamic_network_thresholded,0,90);  % 90 (number of ROIS) here should be revised based on the Atlas you used
+[ C,C_vec ] = temporal_clustering(dynamic_network_thresholded,0,90);  % 90 (number of ROIS) here should be revised based on the Atlas you used
 C_vec=C_vec'; 
 temporal_clust_nodal=[temporal_clust_nodal;C_vec]; 
 temporal_clust=[temporal_clust;C]; 
