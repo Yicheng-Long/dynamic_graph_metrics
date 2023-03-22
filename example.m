@@ -1,4 +1,4 @@
-% This is an example of how to (1) calculated temporal clustering coefficient using Matlab as described in: 
+% This is an example of how to (1) calculated temporal clustering coefficient (also named temporal correlation coefficient) using Matlab as described in: 
 % "Long Y et al. Evaluating test–retest reliability and sex‐/age‐related effects on temporal clustering coefficient of dynamic functional brain networks[J]. Human Brain Mapping, 2023." 
 % and (2) how to calculate the characteristic temporal path length as described in: 
 % "Long Y et al. Altered resting-state dynamic functional brain networks in major depressive disorder: Findings from the REST-meta-MDD consortium[J]. NeuroImage: Clinical, 2020, 26: 102163."
