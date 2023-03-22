@@ -57,7 +57,6 @@ temporal_clust_nodal=[temporal_clust_nodal;C_vec];
 temporal_clust=[temporal_clust;C]; 
 %%  Calculating characteristic temporal path length (this step may take relatively long time and you may skip it if not needed)
 [ C,C_vec ] = temporal_path_length(dynamic_network_thresholded,0,90);  % 90 (number of ROIS) here should be revised based on the Atlas you used
-C_vec=C_vec'; 
 temporal_path_nodal=[temporal_clust_nodal;C_vec]; 
 temporal_path=[temporal_clust;C]; 
 end; 
